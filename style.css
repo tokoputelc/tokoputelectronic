@@ -1,0 +1,141 @@
+.banner {
+  background: url("media/jumbo-ban.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+#benefit,
+#products,
+#about,
+#owner {
+  scroll-margin-top: 100px; /* Sesuaikan nilai dengan tinggi navbar */
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #5e4122;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.owner img {
+  width: 250px;
+  border: 2px solid black;
+}
+
+footer {
+  width: 100%;
+  background: #25262a;
+  color: #fff;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.foot {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .col-1,
+footer .col-2 {
+  flex-basis: 22%;
+  margin-bottom: 20px;
+}
+
+footer .col-1 img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+footer h3::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 50px;
+  background: #fff;
+  margin-top: 8px;
+}
+
+footer p {
+  color: #ccc;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #997528;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #25262a;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #997528;
+  color: #fff;
+}
+
+.footer-2 {
+  width: 100%;
+  background: #25262a;
+  color: #fff;
+  padding-top: 20px;
+  text-align: center;
+}
